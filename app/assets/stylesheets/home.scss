@@ -1,0 +1,39 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url(//cdn.jsdelivr.net/nanumsquare/1.0/nanumsquare.css);
+
+body {
+  background-color: #fff9f2;
+  margin: 0px;
+}
+#header{
+  background-color: #ffdeaf;
+  border-bottom: 1px solid #ff9a0c;
+  width:100%; /*full width*/
+  text-align:center;
+  padding-top:15px;
+  padding-bottom:15px;
+}
+#video_container{
+  margin-top:8px;
+  margin-left:8px;
+  margin-right:8px;
+}
+h1 { 
+  color: #4c4c4c; 
+  font-family: 'NanumSquare', sans-serif;
+  font-size: 40px; 
+  font-weight: 400; 
+  line-height: 72px; 
+  margin: 0 0 24px; 
+  text-align: center; 
+  text-transform: uppercase; 
+  padding:0;
+}
+p {
+  font-family: 'NanumSquare', sans-serif;
+  font-size: 15px; 
+  font-weight: 200; 
+}
